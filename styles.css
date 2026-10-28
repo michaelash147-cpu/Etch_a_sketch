@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1350px;
+
+}
+
+.box {
+    background-color: pink;
+    height: 80px;
+    width: 80px;
+    border: 1px dashed black;
+    
+}
+    
