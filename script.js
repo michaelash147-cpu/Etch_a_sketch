@@ -2,6 +2,9 @@
 
 let body = document.querySelector("body")
 let container = document.querySelector(".container")
+let button = document.createElement("button");
+
+button.textContent = "BUTTON";
 
 for (let i=0; i<256; i++) {
     let div = document.createElement("div");
@@ -11,5 +14,5 @@ for (let i=0; i<256; i++) {
     })
     container.appendChild(div);
 }
-
+body.appendChild(button);
 body.appendChild(container);
